@@ -23,7 +23,7 @@ const Item = mongoose.model("Item", itemsSchema);
 
 // Creating new documents
 const item1 = new Item({
-  name: "Welcome to your ttodolist!"
+  name: "Welcome to your todolist!"
 });
 
 const item2 = new Item({
